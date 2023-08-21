@@ -1,0 +1,64 @@
+.topcontent{
+    color:white;
+    /* position: "relative"; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.topcontent__container{
+    /* position: absolute;
+    top: 300px;
+    right: 250px; */
+}
+.work{
+    letter-spacing: 1px;
+    text-align:left;
+   padding-left: 10px;
+    font-size: 20px;
+}
+.topcontent__container>a>button{
+    margin-top: 30px;
+    text-align: left;
+    margin-left: 5px;
+    border: none;
+}
+.bg{
+    
+    padding:10px 100px 10px ;
+    margin-top: 150px;
+    margin-bottom: 100px
+}
+.topcontent__container>.name{
+    font-size: 40px;
+    font-family: "Montserrat", sans-serif;
+}
+.topcontent__downloadbutton{
+    color:black;
+    background-color:orange;
+    font-size: 15px;
+    padding: 10px 30px;
+    font-family: 'Montserrat',sans-serif;
+    cursor: pointer;
+    margin-right: 20px;
+}
+.topcontent__workbutton{
+    color:white;
+    border: 1px solid white !important;
+    background-color: transparent;
+    font-size: 15px;
+    padding: 9px 30px;
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 300;
+    cursor: pointer;
+    margin-right: 20px;
+}
+.topcontent__downloadbutton:hover{
+    color:black;
+    background-color: white;
+    font-weight: 600;
+}
+.topcontent__workbutton:hover{
+    color: black;
+    background-color: white;
+    font-weight: 600;
+}

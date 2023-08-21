@@ -1,0 +1,57 @@
+.Aboutme{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0px 50px 0px 50px;
+    
+    
+  }
+  .draw-line{
+  
+    margin-bottom: 30px;
+    margin-top: 100px;
+    margin-left: 50px;
+    color: #ffa500;
+    text-decoration: underline;
+    text-align: center; 
+  }
+  .title{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    font-size: 1.50rem;
+    margin-left: 50px;
+    letter-spacing: 1px
+  }
+  .title1{
+    margin-bottom:50px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    font-size: 1.50rem;
+    margin-left: 50px;
+    letter-spacing: 1px
+  }
+  .todo-btn {
+  
+    color:orange;
+    background: rgb(43, 41, 41);
+    border: 3px solid orange;
+    padding: 1.00rem;
+    cursor: pointer;
+    margin-left: 50px;
+    
+    
+  }
+  .todo-btn:hover{
+    background-color:#ffa500;
+    color: #fff;
+  }
+  .Form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .picture{
+    width: 400px;
+    height: 400px;
+    margin-top: 100px;
+  }
